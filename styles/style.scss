@@ -1,0 +1,95 @@
+@import "base/module", "layout/module";
+
+body {
+    font-family: $primary-font;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-gradient {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    position: relative;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.background-gradient::after{
+    content: "";
+    width: 80%;
+    height: 10px;
+    display: block;
+    background: #e7e7f2;
+    border-radius: 0px 0px 12px 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.background-gradient::before {
+    content: "";
+    width: 90%;
+    height: 10px;
+    display: block;
+    background: #cacadb;
+    border-radius: 0px 0px 12px 12px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.first-sreen-background {
+    background: url("../images/main-screen/h-symbol.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 45% 100%;
+}
+
+.wrapper {
+    max-width: $mobile-wrapper;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.push-apart { 
+    @extend %flex-element;
+    justify-content: space-between;
+}
+
+.main-screen {
+    padding: 130px 0 30px;
+    color: $primary-light-color;
+    text-align: center;
+}
+
+.button-down {
+    display: block;
+    margin: 0 auto;
+    stroke: $primary-light-color;
+}
+
+.button-down:hover {
+    stroke: $accent-color;
+}
+
+
+.header-services {
+    margin-bottom: 30px;
+}
+
+.service-title-link:hover {
+    .title-3 {
+        color: $accent-color;
+    }  
+}
+
+@import "media/media";

@@ -1,0 +1,79 @@
+.footer {
+    background-color: $light-background;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-top {
+    border-top: 2px solid $separator-color;
+}
+
+.footer-location-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-location__adress {
+    display: inline-block;
+    color: $main-color;
+}
+
+.footer-location__adress:hover {
+    color: $accent-color;
+}
+
+.footer-location__btn {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: $secondary-font-weight;
+    color: $active-regular-color;
+    text-transform: uppercase;
+}
+
+.footer-location__btn:hover {
+    color: $accent-color;
+}
+
+.copyright-desktop {
+    display: none;
+}
+
+.footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-contacts-fb {
+    fill: $active-regular-color;
+}
+
+.footer-contacts-fb:hover {
+    fill: $accent-color;
+}
+
+.footer-contacts__phone {
+    color: $main-alt-color;
+    font-weight: $secondary-font-weight;
+}
+
+.footer-contacts__phone:hover {
+    color: $accent-color;
+}
+
+.footer-contacts__mail {
+    color: $active-regular-color;
+    font-weight: $secondary-font-weight;
+}
+
+.footer-contacts__mail:hover {
+    color: $accent-color;
+}
+
+.copyright {
+    color: $secondary-text-color;
+}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Final Work</title>
+</head>
+<body>
+    <div class="background-gradient">
+        <div class="first-sreen-background">
+            <header class="header">
+                <div class="contacts">
+                    <div class="header-wrapper push-apart">
+                        <ul class="lang-switcher push-apart">
+                            <li class="lang-switcher__item">
+                                <a class="lang-item-link" href="#">УК</a> 
+                            </li>
+                            <li class="lang-switcher__item">
+                                <a class="lang-item-link" href="#">РУ</a> 
+                            </li>
+                            <li class="lang-switcher__item lang-item-active">
+                                <a class="lang-item-link" href="#">EN</a>
+                            </li>
+                        </ul>
+                        <a class="contacts__link link-adress" href="https://goo.gl/maps/nGQAtSBumtXYMb9J6" target="_blank">Kyiv, Mechnikova str., 14/1</a>
+                        <a class="contacts__link link-phone" href="tel:0800 211 927">0800 211 927</a>
+                        <a class="contacts__link link-social-media" href="#">
+                            <svg class="contacts-link-fb" width="24" height="25" viewBox="0 0 24 25"  fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-main header-wrapper push-apart">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <a class="logo__link" href="#">
+                                <img class="logo__image" src="images/header/logo.svg" alt="hlegal-logo">
+                            </a>
+                        </div>
+                        <div class="current-page">
+                            <span class="current-page__item">services</span>
+                        </div>
+                    </div>
+                    <div class="hamburger-menu" id="showMenu">
+                        <a class="humburger-menu-link" href="#">
+                            <img class="humburger-menu__icon" src="images/header/hamburger-menu-icon.svg" alt="humburger-menu-icon">
+                        </a>
+                    </div>
+                    <div class="menu-container">
+                        <div class="contacts">
+                            <div class="header-wrapper push-apart">
+                                <ul class="lang-switcher push-apart">
+                                    <li class="lang-switcher__item">
+                                        <a class="lang-item-link" href="#">УК</a> 
+                                    </li>
+                                    <li class="lang-switcher__item">
+                                        <a class="lang-item-link" href="#">РУ</a> 
+                                    </li>
+                                    <li class="lang-switcher__item lang-item-active">
+                                        <a class="lang-item-link" href="#">EN</a>
+                                    </li>
+                                </ul>
+                                <a class="contacts__link link-adress" href="https://goo.gl/maps/nGQAtSBumtXYMb9J6" target="_blank">Kyiv, Mechnikova str., 14/1</a>
+                                <a class="contacts__link link-phone" href="tel:0800 211 927">0800 211 927</a>
+                                <a class="contacts__link link-social-media" href="#">
+                                    <svg class="contacts-link-fb" width="24" height="25" viewBox="0 0 24 25"  fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a class="menu__link" href="#">about us</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__link" href="pages/services.html">services</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__link" href="#">team</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__link" href="#">publications</a>
+                                </li>
+                                <li class="menu__list-item" id="showModal">
+                                    <a class="menu__link" href="#">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div> 
+                </div>
+            </header>
+            <section class="main-screen">
+                <div class="wrapper">
+                    <h1 class="title title-1">you legal solutions provider</h1>
+                    <a class="button-down" href="#">
+                        <svg class="button-down__arrow" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle opacity="0.5" cx="21" cy="21" r="20"  stroke-width="2"/>
+                            <path d="M12 18L21 27L30 18" stroke-width="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </div> 
+        <section class="advantages">
+            <div class="scroll">
+                <ul class="advantages-list">
+                    <li class="advantages-list__item">
+                        <a class="advantages-link advantages-link--active" href="#">Consistent</a>
+                    </li>
+                    <li class="advantages-list__item">
+                        <a class="advantages-link" href="#">Customer oriented</a>
+                    </li>
+                    <li class="advantages-list__item">
+                        <a class="advantages-link" href="#">Innovative</a>
+                    </li>
+                    <li class="advantages-list__item">
+                        <a class="advantages-link" href="#">Business oriented</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapper">
+                <div class="advantages-content">
+                    <h4 class="title title-4">We turn the idea of legal services</h4>
+                    <p class="advantages-content__paragraph">
+                        Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.
+                    </p>
+                </div>
+            </div>    
+        </section>
+        <section class="services">
+            <div class="wrapper">
+                <a class="sub-title-link" href="#">Services
+                    <svg class="sub-title-link__arrow" width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L6 5.5L1.5 10"  stroke-width="2"/>
+                    </svg>
+                </a>
+                <h2 class="title title-2">What can we do better than others?</h2>
+                <ul class="services-list">
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/it-icon.svg" alt="it-and-e-commerce-icon">
+                        <h3 class="title title-3">IT and e-commerce</h3>
+                        <p class="services-item-paragraph">
+                            An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.
+                        </p>
+                    </li>
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/support-icon.svg" alt="briefcase">
+                        <h3 class="title title-3">Comprehensive daily legal support</h3>
+                        <p class="services-item-paragraph">
+                            In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.
+                        </p>
+                    </li>
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/corporate-relationships-icon.svg" alt="structuring-corporate-relationships-icon">
+                        <h3 class="title title-3">Structuring corporate relationships</h3>
+                        <p class="services-item-paragraph">
+                            Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.
+                        </p>
+                    </li>
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/contractual-relations-icon.svg" alt="three-hands-together">
+                        <h3 class="title title-3">Building contractual relations</h3>
+                        <p class="services-item-paragraph">
+                            Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.
+                        </p>
+                    </li>
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/protection-icon.svg" alt="protective-shield">
+                        <h3 class="title title-3">Protection of business, intellectual property</h3>
+                        <p class="services-item-paragraph">
+                            And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.
+                        </p>
+                    </li>
+                    <li class="services-list__item">
+                        <img class="services-item-icon" src="images/services/judgement-icon.svg" alt="court-gavel">
+                        <h3 class="title title-3">Judicial representation</h3>
+                        <p class="services-item-paragraph">
+                            Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <main>
+        <section class="team">
+            <div class="wrapper">
+                <ul class="team-list">
+                    <li class="team-list__item">
+                        <picture class="team-item-picture">
+                            <source media="(max-width: 375px)" srcset="images/team/team-1-mobile.png">
+                            <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/team/team-1-tablet-sd.png">
+                            <source media="(min-width: 1024px) and (max-width: 1440px)" srcset="images/team/team-1-tablet-hd.png">
+                            <source media="(min-width: 1440px) and (max-width: 1920px)" srcset="images/team/team-1-desktop-sd.png">
+                            <source media="(min-width: 1920px)" srcset="images/team/team-1-desktop-hd.png">
+
+                            <img class="item-picture__photo" src="images/team/team-1-mobile.png" alt="managing-partner-portrait">
+                        </picture> 
+                        <div class="team-content">
+                            <a class="sub-title-link" href="#">Команда
+                                <svg class="sub-title-link__arrow" width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1L6 5.5L1.5 10"  stroke-width="2"/>
+                                </svg>
+                            </a>
+                            <h2 class="title title-2">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h2>
+                            <p class="team-content__member-name">Олександр Олександровський</p>
+                            <span class="team-content__member-position">Керуючий партнер</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="paginator">
+                    <a class="paginator__circle paginator__circle--active" href="#"></a>
+                    <a class="paginator__circle" href="#"></a>
+                    <a class="paginator__circle" href="#"></a>
+                </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="wrapper">
+                <h6 class="title title-6">They already trust us</h6>
+            </div>
+            <ul class="clients-list">
+                <li class="clients-list__item bg-hillel">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/hillel-logo.svg" alt="hillel-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-wannabiz">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/wannabiz-logo.svg" alt="wannabiz-logo">
+                    </a>
+                </li>
+
+                <li class="clients-list__item bg-targerine">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/targerine-logo.svg" alt="targerine-logo">
+                    </a>
+                </li>
+
+                <li class="clients-list__item bg-3d">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/3d-look-logo.svg" alt="3d-look-logo">
+                    </a>
+                </li>
+
+                <li class="clients-list__item bg-orangear">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/orangear-logo.svg" alt="oranger-logo">
+                    </a>
+                </li>
+
+                <li class="clients-list__item bg-adtelligent">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/adtelligent-logo.svg" alt="adtelligent-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-clickky">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/clickky-logo.svg" alt="clickky-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-ecoleasing">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/ecoleasing-logo.svg" alt="ecoleasing-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-infratek">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/infratek-logo.svg" alt="infratek-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-city">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/city-logo.svg" alt="city-park-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-art">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/art-print-logo.svg" alt="art-print-logo">
+                    </a>
+                </li>
+                <li class="clients-list__item bg-ultimate">
+                    <a class="clients-item-link" href="#">
+                        <img src="images/clients/ultimate-logo.svg" alt="ultimate-card-logo">
+                    </a>
+                </li>    
+            </ul>
+        </section>
+        <section class="publications">
+            <div class="wrapper">
+                <a class="sub-title-link" href="#">Publications
+                    <svg class="sub-title-link__arrow" width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L6 5.5L1.5 10"  stroke-width="2"/>
+                    </svg>
+                </a>
+                <h2 class="title title-2">We have something to tell</h2>
+                <ul class="publications-list">
+                    <li class="publications-list__item">
+                        <picture class="publication-item-picture">
+                            <source media="(min-width: 375px) and (max-width: 375px)" srcset="images/publications/equity-associate-mob.png">
+                            <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/publications/equity-associate-tab-sd.png">
+                            <source media="(min-width: 1024px) and (max-width: 1440px)" srcset="images/publications/equity-associate-tab-hd.png">
+                            <source media="(min-width: 1440px) and (max-width: 1920px)" srcset="images/publications/equity-associate-desk-sd.png">
+                            <source media="(min-width: 1920px)" srcset="images/publications/equity-associate-desk-hd.png">
+
+                            <img class="publication-item-image" src="images/publications/equity-associate-mob.png" alt="people-are-looking-at-graphs">
+                        </picture> 
+                        <div class="publication-item-content content-height-respons"> 
+                            <h5 class="title title-5">Equity associate</h5>
+                            <span class="publications-date">April 22</span>
+                            <p class="publications-item-paragraph">
+                                I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…
+                            </p>
+                        </div>
+                    </li>
+                    <li class="publications-list__item">
+                        <picture class="publication-item-picture">
+                            <source media="(min-width: 375px) and (max-width: 375px)" srcset="images/main-screen/publications/gdbr-mob.png">
+                            <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/publications/gdbr-tab-sd.png">
+                            <source media="(min-width: 1024px) and (max-width: 1440px)" srcset="images/publications/gdbr-tab-hd.png">
+                            <source media="(min-width: 1440px) and (max-width: 1920px)" srcset="images/publications/gdbr-desk-sd.png">
+                            <source media="(min-width: 1920px)" srcset="images/publications/gdbr-desk-hd.png">
+
+                            <img class="publication-item-image" src="images/publications/gdbr-mob.png" alt="gdbr-logo">
+                        </picture> 
+                        <div class="publication-item-content"> 
+                            <h5 class="title title-5">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h5>
+                            <span class="publications-date">September 29</span>
+                            <p class="publications-item-paragraph">
+                                And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="publications-list__item card-stretch-respons">
+                        <picture class="publication-item-picture card-stretch-respons">
+                            <source media="(min-width: 375px) and (max-width: 375px)" srcset="images/main-screen/publications/millennial-mob.png">
+                            <source media="(min-width: 768px) and (max-width: 1024px)" srcset="images/publications/millennial-tab-sd.png">
+                            <source media="(min-width: 1024px) and (max-width: 1440px)" srcset="images/publications/millennial-tab-hd.png">
+                            <source media="(min-width: 1440px) and (max-width: 1920px)" srcset="images/publications/millennial-desk-sd.png">
+                            <source media="(min-width: 1920px)" srcset="images/publications/millennial-desk-hd.png">
+
+                            <img class="publication-item-image" src="images/publications/millennial-mob.png" alt="people-are-looking-at-laptop">
+                        </picture> 
+                        <div class="publication-item-content"> 
+                            <h5 class="title title-5">Millennial Testament</h5>
+                            <span class="publications-date">August 19</span>
+                            <p class="publications-item-paragraph">
+                                What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-top">
+                <ul class="footer-location-list">
+                    <li class="footer-location-item">
+                        <span class="footer-location__adress">Kyiv, Mechnikova str., 14/1</span>
+                    </li>
+                    <li class="footer-location-item">
+                        <a class="footer-location__btn" href="https://goo.gl/maps/nGQAtSBumtXYMb9J6" target="_blank">On map</a>
+                    </li>
+                </ul>
+                <span class="copyright copyright-desktop">© 2021 HLEGAL Law company, LLC</span>
+            </div>
+            <div class="footer-contacts">
+                <ul class="footer-contacts-list">
+                    <li class="footer-contacts-item">
+                        <a class="footer-contacts__social-media" href="#">
+                            <svg class="footer-contacts-fb" width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.5 19.1161C38.5 8.55857 29.9934 0 19.5 0C9.00658 0 0.5 8.55857 0.5 19.1161C0.5 28.6575 7.44803 36.5659 16.5312 38V24.6419H11.707V19.1161H16.5312V14.9046C16.5312 10.1136 19.3678 7.46723 23.7078 7.46723C25.7866 7.46723 27.9609 7.84059 27.9609 7.84059V12.545H25.5651C23.2048 12.545 22.4688 14.0185 22.4688 15.5302V19.1161H27.7383L26.8959 24.6419H22.4688V38C31.552 36.5659 38.5 28.6575 38.5 19.1161Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts-item">
+                        <a class="footer-contacts__phone" href="tel:0800 211 927">0800 211 927</a>
+                    </li>
+                    <li class="footer-contacts-item">
+                        <a class="footer-contacts__mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="copyright copyright-mob">© 2021 HLEGAL Law company, LLC</span>
+        </div>
+    </footer>
+
+    <!-- POPUP-CONTAINER -->
+
+    <div class="modal-container" id="modalMenu">
+        <div class="modal-menu">
+            <a class="modal-menu-close" id="closeMenu" href="#">
+                <img class="modal-menu__close-icon" src="images/header/close-icon.svg" alt="cross-icon">
+            </a>
+            <ul class="modal-menu-list">
+                <li class="modal-menu__item">
+                    <a class="modal-item-link menu-item-active" href="#">about us</a>
+                </li>
+                <li class="modal-menu__item">
+                    <a class="modal-item-link" href="#">services</a>
+                </li>
+                <li class="modal-menu__item">
+                    <a class="modal-item-link" href="#">team</a>
+                </li>
+                <li class="modal-menu__item">
+                    <a class="modal-item-link" href="#">publications</a>
+                </li>
+                <li class="modal-menu__item">
+                    <a class="modal-item-link" href="#">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modalContacts">
+        <div class="modal-contacts">
+            <h2 class="title title-2">We would like to help you</h2>
+            <a class="modal-menu-close" id="closeContacts" href="#">
+                <img class="modal-menu__close-icon" src="images/header/close-icon.svg" alt="cross-icon">
+            </a>
+            <div class="main-info-contacts">
+                <input class="modal-contacts__input name-input" type="text" placeholder="Name">
+                <textarea class="modal-contacts__input contacts-textarea" placeholder="Message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="response-contacts">
+                <h6 class="title title-6">How to answer you?</h6>
+                <input class="modal-contacts__input phone-input" type="tel" placeholder="Phone number">
+                <input class="modal-contacts__input" type="email" placeholder="Email">
+            </div>
+            <button class="modal-form-btn">Send message</button>
+        </div>
+    </div>
+
+    <!-- POPUP-CONTAINER-END -->
+
+    <script src="script.js"></script>
+</body>
+</html>

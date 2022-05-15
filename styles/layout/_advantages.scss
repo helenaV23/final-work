@@ -1,0 +1,42 @@
+.advantages {
+    margin-bottom: 30px;
+}
+
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 30px 0;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.advantages-list {
+    @extend %flex-element;
+    gap: 30px;
+    padding: 0 calc(((100vw - $mobile-wrapper) + (15px * 2))/ 2);
+}
+    
+.advantages-link {
+    display: block;
+    color: $secondary-text-color;
+    font-size: 30px;
+    font-weight: $secondary-font-weight;
+}
+
+.advantages-link--active {
+    @extend %text-gradient-reverse;
+}
+
+.advantages-content {
+    padding-top: 30px; 
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.advantages-content__paragraph {
+    font-size: 19px;
+    line-height: 30px;
+    color: $primary-light-color;
+} 

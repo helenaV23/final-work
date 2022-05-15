@@ -1,0 +1,12 @@
+@mixin dot-separator {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $separator-color;
+    transform: scaleY(1.0001);
+}

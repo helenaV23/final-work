@@ -1,0 +1,50 @@
+@media (min-width: 1920px) {
+    .background-gradient::after {
+        width: 96%;
+    }
+    
+    .background-gradient::before {
+        width: 98%;
+    }
+    .header-wrapper, .wrapper {
+        max-width: $desktop-hd-wrapper;
+    }
+
+    .main-screen {
+        padding-top: 360px;
+    }
+
+    .title-1 {
+        margin-bottom: 405px;
+    }
+
+    .advantages {
+        max-width: 1360px;
+    }
+
+    .advantages-content {
+        padding: 73px 0 73px 60px;
+    }
+
+    .services-list__item {
+        max-width: 493px;
+    }
+
+    .clients {
+        margin-bottom: 60px;
+    }
+
+    .clients-list {
+        max-width: 1720px;
+        margin: 0 auto;
+        border-radius: 12px;
+    }
+
+    .publication-item-content {
+        height: 250px;
+    }
+
+    .modal-contacts {
+        width: 32vw; 
+    }
+}

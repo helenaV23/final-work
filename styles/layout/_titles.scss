@@ -1,0 +1,68 @@
+.title {
+    font-family: $primary-font;
+    font-weight: $secondary-font-weight;
+}
+
+.title-1 {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 160px;
+}
+
+.title-2 {
+    @extend %text-gradient;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.title-3 {
+    color: $active-regular-color;
+    font-size: 22px;
+    line-height: 27px; 
+}
+
+.title-4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: $primary-light-color;
+    margin-bottom: 30px;
+}
+
+.title-6 {
+    font-size: 14px;
+    line-height: 17px;
+    color: $main-color;
+    text-transform: uppercase;
+}
+
+.title-5 {
+    font-size: 16px;
+    line-height: 20px;
+    color: $active-regular-color;
+}
+
+.sub-title-link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: $secondary-font-weight; 
+    color: $active-regular-color;
+    margin-bottom: 10px;  
+}
+
+.sub-title-link__arrow {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 2px;
+    text-transform: uppercase;
+    stroke: #24A3FF;
+}
+
+.sub-title-link:hover {
+    color: $accent-color;
+    .sub-title-link__arrow {
+        stroke: $accent-color;
+    }
+}
+

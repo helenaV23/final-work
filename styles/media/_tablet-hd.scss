@@ -1,0 +1,127 @@
+@media (min-width: 1024px) {
+    .background-gradient::after {
+        width: 92%;
+    }
+    
+    .background-gradient::before {
+        width: 96%;
+    }
+
+    .header > .contacts {
+        display: none;
+    } 
+
+    .menu-container {
+        .menu__list {
+            justify-content: flex-end;
+        }
+
+        .contacts {
+            display: block;
+            padding: 0;
+            margin-bottom: 16px;
+
+            .header-wrapper {
+                padding: 0;
+            }
+        }
+    }
+
+    .advantages {
+        max-width: $tablet-hd-wrapper;
+        display: flex;
+        padding: 0 15px;
+        margin: 0 auto 60px;
+    }
+
+    .scroll {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: visible;
+        overflow-y: visible;
+        padding: 0 60px 0 0;
+    }
+
+    .advantages-list {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .advantages {
+        .wrapper {
+            padding: 0;
+        }
+    }
+
+    .header-wrapper, .wrapper {
+        max-width: $tablet-hd-wrapper;
+    }
+
+    .header {
+        padding-top: 50px;
+    }
+
+    .header-main {
+        flex-direction: row;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .main-screen {
+        padding-top: 245px;
+        margin-bottom: 60px;
+    }
+
+    .title-1 {
+        margin-bottom: 290px;
+    }
+
+    .first-sreen-background {
+        background-position: 50% 100%;
+    }
+
+    .advantages-link:hover {
+        color: $accent-color;
+    }
+
+    .advantages-content {
+        border-top: none;
+        border-left: 4px solid rgba(255, 255, 255, 0.3);
+        padding: 10px 0 10px 60px;
+    }
+
+    .services-list {
+        row-gap: 60px;
+    }
+
+    .services-list__item {
+        max-width: 261px;
+    }
+
+    .team-content {
+        padding: 27px 30px;
+        border-radius: 0 12px 12px 0;
+    }
+
+    .team-list__item {
+        display: flex;
+    }
+
+    .clients-list__item {
+        width: 25%;
+    }
+
+    .publications-list__item {
+        width: 30%;
+    }
+
+    .publication-item-content {
+        height: 356px;
+    }
+
+    .modal-contacts {
+        width: 60vw;
+    }
+}

@@ -1,0 +1,41 @@
+@media (min-width: 1440px) {
+    .background-gradient::after {
+        width: 94%;
+    }
+    
+    .background-gradient::before {
+        width: 97%;
+    }
+
+    .header-wrapper, .wrapper {
+        max-width: $desktop-sd-wrapper;
+    }
+
+    .main-screen {
+        padding-top: 260px;
+    }
+
+    .title-1 {
+        margin-bottom: 305px;
+    }
+
+    .advantages {
+        max-width: 1080px;
+    }
+
+    .advantages-content {
+        padding: 43px 0 43px 60px;
+    }
+
+    .services-list__item {
+        max-width: 400px;
+    }
+
+    .publication-item-content {
+        height: 272px;
+    }
+
+    .modal-contacts {
+        width: 43vw;
+    }
+}
